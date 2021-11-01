@@ -104,16 +104,12 @@ li {
   padding-top: 15px;
 }
 
+
 .bodyBox p {
   max-height: 250px;
   max-width: 200px;
 }
 
-.bodyBoxContainer {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
 
 h1 {
   text-align: center;
@@ -151,4 +147,9 @@ button:hover {
 
 img {
   cursor: pointer;
+}
+
+.horizontalAllign {
+  display: flex;
+  
 }

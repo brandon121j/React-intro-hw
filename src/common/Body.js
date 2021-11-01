@@ -20,7 +20,11 @@ export class Body extends Component {
 						accumsan ullamcorper.
 					</p>
 				</div>
-            <Box pic2={this.props.pic2} pic3={this.props.pic3} pic4={this.props.pic4}/>
+				<div className="horizontalAllign">
+					<Box pic={this.props.pic2} />
+					<Box pic={this.props.pic3} />
+					<Box pic={this.props.pic4} />
+				</div>
 			</div>
 		);
 	}
